@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    width: 100%;
+    background-color: transparent;
+    background-color: black;
+    border-spacing: 80px 8px;
+}
+
+.nav{
+    width: 10%;
+}
+
+#menu h1 {
+    font-size: 2.5rem;
+    color: rgb(238, 32, 32);
+}
+
+#navbar a {
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+}
+
+#navbar a:hover {
+    color: red;
+}
+
+#hamburger {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    #navbar td{
+        display: block;
+        padding: 1% 0;
+    }
+    #hamburger {
+        font-size: 1.3rem;
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+
+}
+
+
+/* intro */
+
+#intro {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: black;
+    color: white;
+    padding: 6% 10%;
+}
+
+#intro img {
+    width: 60%;
+    border-radius: 70%;
+}
+
+#intro p {
+    font-size: 2.2rem;
+    padding-top: 3%;
+}
+
+#intro h1 {
+    font-size: 3.8rem;
+    color: honeydew;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#intro button {
+    font-size: 1.5rem;
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: crimson;
+    
+}
+
+#intro button a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:1020px) {
+
+    #intro h1 {
+        font-size: 3rem;
+    }
+
+    #intro button { 
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width:800px) {
+    #intro {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    #intro p {
+        font-size: 2rem;
+    }
+
+    #intro img {
+        width: 55%;
+        padding: 5% 0;
+    }
+}
