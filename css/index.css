@@ -244,6 +244,43 @@
 
 /* contact */
 
+#contact {
+}
+
+#contact h1 {
+    text-align: center;
+    margin: 6% 0;
+    font-size: 2.6rem;
+}
+
+.myself {
+    color: black;
+    font-weight: bold;
+    padding: 1% 0 ;
+}
+
+#contact h2,p,div {
+    margin-left: 10%;
+
+}
+
+#contact p {
+    padding: 1% 0;
+    font-size: 1.2rem
+}
+
+.contact_me {
+    display: grid;
+    grid-template-columns:4% 30% ;
+    padding: 1% 0;
+    align-items: center;
+}
+
+.contact_me p {
+    font-size: 1.3rem;
+}
+
 #contact i {
-    /* color: black; */
+    color: red;
+    font-size: 1.5rem;
 }
