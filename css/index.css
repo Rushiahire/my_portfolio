@@ -57,7 +57,7 @@
     grid-template-columns: 60% 40%;
     background-color: black;
     color: white;
-    padding: 6% 10%;
+    padding: 10% 10%;
 }
 
 #intro img {
@@ -196,28 +196,54 @@
 
 #skills {
     text-align: center;
-    padding: 3% 0;
+    /* padding: 3%   0; */
 }
 
 #skills i {
-    width: 30%;
+    /* width: 30%; */
     font-size: 3rem;
     
 }
 
 #skills h1 {
-    font-size: 2.5rem;
-    padding: 2% 0;
+    font-size: 2.8rem;
+    padding: 2% 0 1% 0;
 }
 
 #skills p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    padding: 1.5% 0;
+}
+
+#skills button {
+    width: 50%;
+    border-radius: 9px;
+    background-color:bisque;
+    color: black;
+    font-size: 1.3rem;
+    margin: 8% 75%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 6px wheat;
+    /* padding:1% 2%; */
+}
+
+#skills button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: none;
 }
 
 #skills div {
-    padding: 3% 0;
-    width: 100%;
+    /* padding: 3% 0; */
     display: grid;
-    grid-template-columns: repeat(3,auto);
-    /* margin: 3% auto; */
+    grid-template-columns: repeat(3,25%);
+    /* margin: 3% 10%; */
+}
+
+
+/* contact */
+
+#contact i {
+    /* color: black; */
 }
