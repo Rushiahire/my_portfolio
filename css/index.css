@@ -196,11 +196,18 @@
 
 #skills {
     text-align: center;
+    /* margin-left:25%; */
     /* padding: 3%   0; */
 }
 
+#skills div {
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    column-gap: 5%;
+    /* row-gap: 10%; */
+}
+
 #skills i {
-    /* width: 30%; */
     font-size: 3rem;
     
 }
@@ -216,12 +223,12 @@
 }
 
 #skills button {
-    width: 50%;
+    /* width: 60%; */
     border-radius: 9px;
     background-color:bisque;
     color: black;
     font-size: 1.3rem;
-    margin: 8% 75%;
+    margin: 10% 0 0 45%;
     border: none;
     cursor: pointer;
     box-shadow: 5px 6px wheat;
@@ -234,18 +241,28 @@
     box-shadow: none;
 }
 
-#skills div {
-    /* padding: 3% 0; */
-    display: grid;
-    grid-template-columns: repeat(3,25%);
-    /* margin: 3% 10%; */
+@media (max-width:800px) {
+    #skills button {
+        /* border: 2px solid gray; */
+        width: 73%;
+    }
 }
 
+@media (max-width:600px) {
+    #skills div {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 0;
+        
+    }
+
+    #skills button {
+        margin:2% auto;
+    }
+}
 
 /* contact */
 
-#contact {
-}
 
 #contact h1 {
     text-align: center;
@@ -259,7 +276,7 @@
     padding: 1% 0 ;
 }
 
-#contact h2,p,div {
+#contact h2,contact p,contact div {
     margin-left: 10%;
 
 }
@@ -283,4 +300,4 @@
 #contact i {
     color: red;
     font-size: 1.5rem;
-}
+} 
