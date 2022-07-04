@@ -79,7 +79,7 @@
 
 #intro button {
     font-size: 1.5rem;
-    padding: 1.5%;
+    padding: 2%;
     border-radius: 10px;
     background-color: crimson;
     
@@ -334,14 +334,32 @@ footer span {
     color: crimson;
 }
 
-#arrow {
+/* #arrow {
     padding: 0.2% 0.7%;
     font-size: 1.7rem;
     background-color: crimson;
     color:white;
     border: none;
     border-radius: 2px;
-    /* position: absolute; */
     margin-left: 80%;
-    /* margin-bottom: 10%; */
+    margin-bottom: 10%;
+} */
+
+#top_arrow {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background-color: crimson;
+    color: white;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 6px;
+    font-size: 1.9rem;
+}
+
+html {
+    scroll-behavior: smooth;
 }
