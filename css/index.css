@@ -9,7 +9,7 @@
     background-color: transparent;
     background-color: black;
     border-spacing: 80px 8px;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .nav{
@@ -36,6 +36,7 @@
 }
 
 @media screen and (max-width:800px) {
+    
     #navbar td{
         display: block;
         padding: 1% 0;
@@ -196,8 +197,6 @@
 
 #skills {
     text-align: center;
-    /* margin-left:25%; */
-    /* padding: 3%   0; */
 }
 
 #skills div {
@@ -228,7 +227,7 @@
     background-color:bisque;
     color: black;
     font-size: 1.3rem;
-    margin: 10% 0 0 45%;
+    margin: 10% 0 0 50%;
     border: none;
     cursor: pointer;
     box-shadow: 5px 6px wheat;
@@ -263,6 +262,10 @@
 
 /* contact */
 
+ 
+#contact h2,#contact_p , #contact div {
+     margin-left: 15%;
+} 
 
 #contact h1 {
     text-align: center;
@@ -274,11 +277,6 @@
     color: black;
     font-weight: bold;
     padding: 1% 0 ;
-}
-
-#contact h2,contact p,contact div {
-    margin-left: 10%;
-
 }
 
 #contact p {
@@ -301,3 +299,49 @@
     color: red;
     font-size: 1.5rem;
 } 
+
+
+@media (max-width:800px) {
+    .contact_me {
+        grid-template-columns: 5% 60%;
+    }
+}
+
+@media (max-width:360px) {
+    #contact div {
+        margin-left:5% ;
+    }
+}
+
+/* footer */
+
+footer {
+    background-color:black ;
+    color: white;
+    font-size: 1.3rem;
+    height: 70px;
+    text-align: center;
+}
+
+footer p {
+    padding:2% 0 0 0;
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+
+footer span {
+    color: crimson;
+}
+
+#arrow {
+    padding: 0.2% 0.7%;
+    font-size: 1.7rem;
+    background-color: crimson;
+    color:white;
+    border: none;
+    border-radius: 2px;
+    /* position: absolute; */
+    margin-left: 80%;
+    /* margin-bottom: 10%; */
+}
