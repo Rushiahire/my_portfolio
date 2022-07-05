@@ -9,7 +9,7 @@
     background-color: transparent;
     background-color: black;
     border-spacing: 80px 8px;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .nav{
@@ -69,6 +69,11 @@
 #intro p {
     font-size: 2.2rem;
     padding-top: 3%;
+}
+
+#para {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
 }
 
 #intro h1 {
@@ -206,11 +211,6 @@
     /* row-gap: 10%; */
 }
 
-#skills i {
-    font-size: 3rem;
-    
-}
-
 #skills h1 {
     font-size: 2.8rem;
     padding: 2% 0 1% 0;
@@ -222,22 +222,59 @@
 }
 
 #skills button {
-    /* width: 60%; */
+    width: 60%;
     border-radius: 9px;
-    background-color:bisque;
-    color: black;
+    background-color:wheat;
+    /* color: black; */
     font-size: 1.3rem;
     margin: 10% 0 0 50%;
     border: none;
     cursor: pointer;
-    box-shadow: 5px 6px wheat;
-    /* padding:1% 2%; */
+    padding:2% 2%;
+
 }
 
 #skills button:hover {
     background-color: black;
     color: white;
     box-shadow: none;
+}
+
+#skills i {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#html {
+    color: #e96227;
+}
+
+#css {
+    color: #2862e9;
+}
+
+#js {
+    color: #dd9c25;
+}
+
+#react {
+    color: #5ed3f3;
+}
+
+#github {
+    color: #f67c7d;
+}
+
+#db {
+    color: #2862e9;
+}
+
+#dj {
+    color:rgb(20, 177, 20);
+}
+
+#python {
+    color:rgb(196, 196, 52);
 }
 
 @media (max-width:800px) {
@@ -280,9 +317,8 @@
     width: 37%;
     height: 60%;
     position: relative;
-    margin: 1% 5%;
+    margin: 4% 5%;
     transition: all 0.5s ease;
-    /* margin-bottom: 10rem; */
     overflow: hidden;
     border-radius:10px;
   }
@@ -293,7 +329,7 @@
     justify-content: space-between;
   }
   
-  .overlay {
+.overlay {
     position: absolute;  
     width: 100%;
     height: 100%;
@@ -307,7 +343,6 @@
 
   .overlay .overlay__text h2 {
     display: block;
-    /* margin-bottom: 16px; */
     font-size: 2rem;
     color: white;
   }
@@ -349,8 +384,6 @@
     height: 90%;
     width: 100%;
     transition: all 0.5s ease;
-    /* object-fit: contain;  */
-    /* background-color: rgb(212, 28, 28); */
   }
 
   .box:hover .zoom {
@@ -364,6 +397,90 @@
     flex-wrap: wrap;
     margin-bottom: 2rem;
   }
+
+@media (max-width:1000px) {
+    .overlay .overlay__text h2 {
+        font-size: 1rem;
+    }
+
+    .overlay__technology h3  {
+        font-size: 1rem; 
+    }
+
+    .overlay__technology span {
+        font-size: 0.8rem;
+    }
+
+    .overlay__link a {
+        padding: 1.5%;
+        font-size: 1rem;
+    }
+
+    .box {
+        height: 180px;
+    }
+}
+
+@media (max-width:750px) {
+    .box {
+        width: 70%;
+        height: auto;
+        padding: 4% 0;
+        margin: 3% auto;
+    }
+
+    .overlay .overlay__text h2 {
+        font-size: 2rem;
+    }
+
+    .overlay__technology h3  {
+        font-size: 2rem; 
+    }
+
+    .overlay__technology span {
+        font-size: 1rem;
+    }
+
+    .overlay__link a {
+        padding: 1.5%;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:550px) {
+
+    .overlay .overlay__text h2 {
+        font-size: 1.2rem;
+    }
+
+    .overlay__technology h3  {
+        font-size: 1.2rem; 
+    }
+
+    .overlay__technology span {
+        font-size: 1rem;
+    }
+
+    .overlay__link a {
+        padding: 1.5%;
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .overlay__link a {
+        padding: 1.5%;
+        font-size: 1.1rem;
+    }
+
+    .overlay__technology h3 {
+        margin: 0;
+    }
+}
+
 
 
 /* contact */
