@@ -471,6 +471,10 @@
 
 @media (max-width:500px) {
 
+    .box {
+        height: 150px;
+    }
+
     .overlay__link a {
         padding: 1.5%;
         font-size: 1.1rem;
@@ -478,6 +482,12 @@
 
     .overlay__technology h3 {
         margin: 0;
+    }
+}
+
+@media (max-width:360px) {
+    .box {
+        height: 170px;
     }
 }
 
