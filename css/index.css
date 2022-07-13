@@ -305,7 +305,6 @@
     padding: 3% 0;
 }
 
-
 .work-head .title {
     color: white;
     text-align: center;
@@ -315,7 +314,7 @@
 
 .box {
     width: 37%;
-    height: 60%;
+    height: 300px;
     position: relative;
     margin: 4% 5%;
     transition: all 0.5s ease;
@@ -343,7 +342,7 @@
 
   .overlay .overlay__text h2 {
     display: block;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: white;
   }
   .overlay .overlay__text p {
